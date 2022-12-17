@@ -1,0 +1,31 @@
+<div class="info">
+  <div class="experienciaMenu">
+  <div class="experiencia"><h2>Experiencia</h2></div>
+    <ul class="itemList">
+      <li >
+          <div class="logoImageConteiner">
+            <img class="logoImage"
+            src="">
+          </div>
+        <div class="listInfo">
+          <div>
+            <h3>informatico</h3>
+            <p>reparacion, mantenimiento</p>
+            <p><time>2020</time> - <time>2023</time></p>
+          </div>
+        </div>
+      </li>
+      </ul>
+  </div>
+  <div class="educacion"><h2>Educación</h2></div>
+    <ul class="educacionMenu">
+        <li *ngFor="let education of educacionList">
+          <div>
+            <h3>{{education.school}}</h3>
+            <p>{{education.title}}</p>
+            <p>{{education.career}}</p>
+            <p><time>{{education.start}}</time> - <time>{{education.end}}</time></p>
+          </div>
+        </li>
+    </ul>
+</div>
