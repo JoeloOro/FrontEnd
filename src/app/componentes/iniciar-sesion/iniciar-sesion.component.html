@@ -1,5 +1,5 @@
 <h2 class="m-5">Iniciar Sesion</h2>
-<form [formGroup]="form" class="m-2">
+<form [formGroup]="form" class="m-2" (ngSubmit)="noEnviar($event)">
     <div class="mb-3">
       <label for="exampleInputEmail1" class="form-label">Email</label>
       <input type="email" formControlName="email" 
