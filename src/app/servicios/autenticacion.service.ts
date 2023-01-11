@@ -7,7 +7,11 @@ import { map } from 'rxjs/operators'
   providedIn: 'root'
 })
 export class AutenticacionService {
+<<<<<<< HEAD
   url="http://npinti.ddns.net:8080/login/persona";
+=======
+  url="http://localhost:8080/persona/login";
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
   currentUserSubject: BehaviorSubject<any>;
   constructor(private http:HttpClient) { 
     console.log("El servicio de autenticación está corriendo");

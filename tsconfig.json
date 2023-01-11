@@ -6,6 +6,10 @@
     "outDir": "./dist/out-tsc",
     "forceConsistentCasingInFileNames": true,
     "strict": true,
+<<<<<<< HEAD
+=======
+    "strictNullChecks": false,
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
     "noImplicitOverride": true,
     "noPropertyAccessFromIndexSignature": true,
     "noImplicitReturns": true,

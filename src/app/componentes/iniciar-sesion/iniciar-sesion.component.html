@@ -1,8 +1,13 @@
 <h2 class="m-5">Iniciar Sesion</h2>
 <form [formGroup]="form" class="m-2" (ngSubmit)="noEnviar($event)">
     <div class="mb-3">
+<<<<<<< HEAD
       <label for="exampleInputEmail1" class="form-label">Email</label>
       <input type="email" formControlName="email" 
+=======
+      <label for="email" class="form-label">Email</label>
+      <input type="email" formControlName="email"
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
       [ngClass]="{'is-invalid': Email?.errors && Email?.touched, 'is-valid': !Email?.errors && Email?.touched}"
       class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp">
       <div *ngIf="Email?.errors && Email?.touched">
@@ -16,18 +21,32 @@
     </div>
     <div class="mb-3">
       <label for="exampleInputPassword1" class="form-label">Contraseña</label>
+<<<<<<< HEAD
       <input type="password" formControlName="password" 
+=======
+      <input type="password" formControlName="password"
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
       [ngClass]="{'is-invalid': Password?.errors && Password?.touched, 'is-valid': !Email?.errors && Email?.touched}"
       class="form-control" id="exampleInputPassword1">
       <div *ngIf="Password?.errors && Password?.touched">
         <p *ngIf="Password?.hasError('required')" class="alert alert-danger">
           La contraseña es requerida.
         </p>
+<<<<<<< HEAD
         <p *ngIf = "Password?.hasError('minlength')" class = "alert alert-danger"> 
+=======
+        <p *ngIf = "Password?.hasError('minlength')" class = "alert alert-danger">
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
           La contraseña debe ser de 8 o más caracteres.
         </p>
       </div>
     </div>
+<<<<<<< HEAD
     
     <button type="submit" class="btn btn-primary">Emviar</button>
   </form>
+=======
+
+    <button type="submit" class="btn btn-primary">Emviar</button>
+  </form>
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)

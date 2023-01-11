@@ -21,7 +21,11 @@ export class IniciarSesionComponent implements OnInit {
   }
 
   ngOnInit(): void {
+<<<<<<< HEAD
     
+=======
+
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
   }
 
   get Email() {

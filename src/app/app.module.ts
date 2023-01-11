@@ -13,6 +13,11 @@ import { HttpClientModule } from '@angular/common/http';
 import { IniciarSesionComponent } from './componentes/iniciar-sesion/iniciar-sesion.component';
 import { PorfolioComponent } from './componentes/porfolio/porfolio.component';
 import { AppRoutingModule } from './app-routing.module';
+<<<<<<< HEAD
+=======
+import { ExperienciaAddComponent } from './modal/experiencia-add/experiencia-add.component';
+import { ExperienciaEditComponent } from './modal/experiencia-edit/experiencia-edit.component';
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
 
 
 @NgModule({
@@ -25,6 +30,11 @@ import { AppRoutingModule } from './app-routing.module';
     LogrosComponent,
     IniciarSesionComponent,
     PorfolioComponent,
+<<<<<<< HEAD
+=======
+    ExperienciaAddComponent,
+    ExperienciaEditComponent,
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
   ],
   imports: [
     BrowserModule,

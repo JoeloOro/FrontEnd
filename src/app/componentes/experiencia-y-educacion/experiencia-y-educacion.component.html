@@ -1,14 +1,19 @@
 <div class="info">
   <div class="experienciaMenu">
   <div class="experiencia"><h2>Experiencia</h2></div>
+<<<<<<< HEAD
     <ul class="itemList">
       <li >
+=======
+    <div class="itemList" *ngFor="let item of experiencias">
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
           <div class="logoImageConteiner">
             <img class="logoImage"
             src="">
           </div>
         <div class="listInfo">
           <div>
+<<<<<<< HEAD
             <h3>informatico</h3>
             <p>reparacion, mantenimiento</p>
             <p><time>2020</time> - <time>2023</time></p>
@@ -17,6 +22,24 @@
       </li>
       </ul>
   </div>
+=======
+            <h3>{{item.nombre}}</h3>
+            <p>{{item.lugar}}</p>
+            <p><time>{{item.inicio}}</time> - <time>{{item.fin}}</time></p>
+          </div>
+        </div>
+        <button type="button" class="btn btn-secondary">editar</button>
+        <button type="button" class="btn btn-danger" (click)="borrar(item.id)">borrar</button>
+    </div>
+      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#exampleModal">
+        crear
+      </button>
+      <button type="button" class="btn btn-dark" data-bs-toggle="modal" data-bs-target="#editarExperiencia">
+        editar
+      </button>
+  </div>
+
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
   <div class="educacion"><h2>Educación</h2></div>
     <ul class="educacionMenu">
         <li *ngFor="let education of educacionList">
@@ -28,4 +51,10 @@
           </div>
         </li>
     </ul>
+<<<<<<< HEAD
 </div>
+=======
+    <app-experiencia-add></app-experiencia-add>
+    <app-experiencia-edit></app-experiencia-edit>
+</div>
+>>>>>>> b0b7e13 (FrontEnAngular/botonBorrarYEditarFuncionales)
